@@ -51,6 +51,14 @@ PRODUCT_PACKAGES += \
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
+#Lawnchair
+PRODUCT_PACKAGES += \
+    Lawnchair
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    $(LOCAL_PATH)/prebuilts/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
 # Media
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
