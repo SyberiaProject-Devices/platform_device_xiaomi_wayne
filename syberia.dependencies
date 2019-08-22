@@ -1,0 +1,51 @@
+[
+{
+	"remote":      "github",
+	"repository":  "xiaomi-sdm660/android_device_xiaomi_sdm660-common",
+	"target_path": "device/xiaomi/sdm660-common",
+	"branch":      "syberia"
+},
+{
+	"remote":      "github",
+	"repository":  "kenny3fcb/kernel_xiaomi_jasmine_sprout",
+	"target_path": "kernel/xiaomi/wayne-common",
+	"branch":      "wayne-common"
+},
+{
+	"remote":      "los",
+	"repository":  "android_packages_resources_devicesettings",
+	"target_path": "packages/resources/devicesettings",
+	"branch":      "lineage-16.0"
+},
+{
+	"remote":      "github",
+	"repository":  "rebenok90x/android_hardware_qcom_display",
+	"target_path": "hardware/qcom/display-caf/msm8998",
+	"branch":      "master"
+},
+{
+	"remote":      "gitlab",
+	"repository":  "xiaomi-sdm660/android_vendor_xiaomi_wayne",
+	"target_path": "vendor/xiaomi/wayne",
+	"branch":      "master"
+},
+{
+	"remote":      "gitlab",
+	"repository":  "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common",
+	"target_path": "vendor/xiaomi/sdm660-common",
+	"branch":      "master"
+},
+{
+	"remote":      "github",
+	"repository":  "LineageOS/android_hardware_qcom_media",
+	"target_path": "hardware/qcom/media-caf/msm8998",
+	"branch":      "lineage-16.0-caf-8998"
+},
+{
+	"remote":      "github",
+	"repository":  "LineageOS/android_hardware_qcom_audio",
+	"target_path": "hardware/qcom/audio-caf/msm8998",
+	"branch":      "lineage-16.0-caf-8998"
+}
+
+]
