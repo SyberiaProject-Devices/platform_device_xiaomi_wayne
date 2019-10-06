@@ -24,8 +24,8 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common syberia stuff.
+$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
 
 TARGET_VENDOR_PRODUCT_NAME := wayne
 
@@ -39,6 +39,6 @@ BUILD_FINGERPRINT="xiaomi/wayne/wayne:9/PKQ1.180904.001/V10.3.4.0.PDCCNXM:user/r
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
-PRODUCT_NAME := lineage_wayne
+PRODUCT_NAME := syberia_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := MI 6X

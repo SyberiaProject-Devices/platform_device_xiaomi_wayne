@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI 6X lineage device config
+# inherit MI 6X syberia device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_wayne.mk
+    $(LOCAL_DIR)/syberia_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_wayne-eng \
-    lineage_wayne-userdebug \
-		lineage_wayne-user
+    syberia_wayne-eng \
+    syberia_wayne-userdebug \
+		syberia_wayne-user
