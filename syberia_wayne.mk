@@ -25,7 +25,7 @@
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
 # Inherit some common syberia stuff.
-$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/config/common.mk)
 
 TARGET_VENDOR_PRODUCT_NAME := wayne
 
